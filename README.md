@@ -24,14 +24,37 @@ Django是Python的一种web框架，需要Python才可使用。本教程使用Py
 
 ```pip install -r requirements.txt```
 
-#### 4、启动本地服务
+#### 4、第36节需要安装的mysqlclient库
+第36节需要的mysqlclient库先用pip install mysqlclient安装。不行的话，打开[https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient](https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient)下载mysqlclient的whl包，再用pip安装这个whl包。
+
+#### 5、启动本地服务
 进入项目根目录，执行命令：
 
 ```python manage.py runserver```
 
 ## 目录大纲
 01.什么是Django
-
+<ul>
+	<li>Django是Python Web框架</li>
+    <li>Django的特点</li>
+    <li>安装Python3</li>
+    <li>安装Django2.0</li>
+</ul>
+02.入门仪式：Hello World
+<ul>
+    <li>创建Django项目</li>
+    <li>"Hello, world"</li>
+    <li>初步介绍urls路由</li>
+    <li>创建超级管理员，进入后台管理界面</li>
+</ul>
+03.Django基本应用结构
+<ul>
+    <li>什么是Django应用</li>
+    <li>创建Django应用</li>
+    <li>初步介绍models模型</li>
+    <li>模型同步到数据库</li>
+    <li>简单把模型展现到后台管理界面</li>
+</ul>
 (完善中...)
 
 ## 注意
